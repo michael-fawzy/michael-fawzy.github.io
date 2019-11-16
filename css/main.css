@@ -1,0 +1,108 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import "socialMedia.css";
+@import "card.css";
+
+
+img, embed, object, video {max-width: 100%}
+button {
+	min-width: 48px;
+	min-height: 48px;
+}
+
+header {
+	display: block;
+}
+
+body {
+	background-color: #fff0d9;
+	display: grid;
+	grid-row-gap: 10px
+}
+
+.logo {
+	height: 72px;
+    margin-right: 1em;
+    vertical-align: top;
+    /*margin-top: 12px;*/
+}
+
+.upperNavBar {
+	display: inline-block;
+	text-align: center;
+}
+
+nav {
+	display: block;
+}
+
+nav ul {
+	display: inline;
+	list-style: none;
+}
+
+nav a {
+	float: left;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding-right: 16px;
+	text-decoration: none;
+	font-size: 17px;
+    color: #5991ac;
+}
+
+nav input[type=text] {
+	display: block;
+	float: right;
+	padding: 6px;
+	margin-left: 5px;
+	font-size: 17px;
+    border-radius: 10px;
+}
+
+.sitetitle, .about {
+	text-align: center;
+	color: #5991ac;
+}
+
+.mainphoto {
+	margin:auto;
+	width: 35%
+}
+
+h2 {
+	color: #7d97ad;
+}
+
+.postphoto {
+	margin: auto;
+	width: 150px;
+}
+
+.sectiontitle {
+	text-align: center;
+}
+
+.blogPosts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+figure {
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: self-end;
+}
+
+footer a{
+    float: right;
+    font-size: 20px;
+    padding: 20px;
+}
